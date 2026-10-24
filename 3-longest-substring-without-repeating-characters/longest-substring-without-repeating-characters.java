@@ -8,12 +8,9 @@ class Solution {
               a++;
             }
             set.add(s.charAt(i));
-          //  max = Math.max(max,i-a+1);
-          int temp = i-a+1;
-          if(temp>max){
-            max = temp;
+            max = Math.max(max,i-a+1);
+         
           }
-        }
         return max;
     }
 }
